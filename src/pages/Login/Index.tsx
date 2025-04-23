@@ -17,7 +17,7 @@ const Login = () => {
 
       <div className="flex h-screen w-1/2 flex-col items-center justify-between p-2">
         <div className="mt-30 p-3">
-          <h3 className="mb-4 text-center text-2xl font-semibold text-purple-400">
+          <h3 className="mb-4 text-center text-2xl font-semibold text-purple-500">
             Log in
           </h3>
 
@@ -34,7 +34,7 @@ const Login = () => {
             </p>
 
             <div className="flex justify-center">
-              <Button className="w-50 cursor-pointer bg-purple-400 p-5 text-lg text-white hover:bg-purple-500">
+              <Button className="w-50 cursor-pointer bg-purple-500 p-5 text-lg text-white hover:bg-purple-400">
                 Login
               </Button>
             </div>
@@ -43,7 +43,7 @@ const Login = () => {
 
         <p className="mb-10 text-base text-neutral-400">
           Don't have any account ?{" "}
-          <a href="#" className="text-purple-400">
+          <a href="#" className="text-purple-500">
             Sign Up
           </a>
         </p>
