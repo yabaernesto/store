@@ -1,8 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import { ThemeToggle } from "@/components/mode-toggle";
 import imgLogo from "../../assets/nord.png";
 import Wave from "./components/Wave";
-import { ThemeToggle } from "@/components/mode-toggle";
 
 const Login = () => {
   return (
