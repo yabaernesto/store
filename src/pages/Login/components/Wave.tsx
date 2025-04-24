@@ -6,7 +6,7 @@ const Wave = () => {
       id="svg"
       viewBox="0 0 1440 690"
       xmlns="http://www.w3.org/2000/svg"
-      className="transition delay-150 duration-300 ease-in-out"
+      className="rounded-bl-2xl transition delay-150 duration-300 ease-in-out"
     >
       <defs>
         <linearGradient id="gradient" x1="0%" y1="50%" x2="100%" y2="50%">

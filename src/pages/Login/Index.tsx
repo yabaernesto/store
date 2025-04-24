@@ -30,10 +30,12 @@ const Login = () => {
             <form className="space-y-4">
               <Input
                 placeholder="username"
+                type="text"
                 className="border border-purple-500/30 bg-[#1e1e2e] px-4 py-6 text-white placeholder:text-zinc-400 focus:ring-2 focus:ring-purple-500 focus:outline-none"
               />
               <Input
                 placeholder="password"
+                type="password"
                 className="border border-purple-500/30 bg-[#1e1e2e] px-4 py-6 text-white placeholder:text-zinc-400 focus:ring-2 focus:ring-purple-500 focus:outline-none"
               />
 
