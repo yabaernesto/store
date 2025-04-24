@@ -6,7 +6,7 @@ import Wave from "./components/Wave";
 
 const Login = () => {
   return (
-    <div className="flex h-screen items-center justify-center bg-white dark:bg-[#0f0f1a]">
+    <div className="flex h-screen items-center justify-center bg-zinc-50 dark:bg-[#0f0f1a]">
       <div className="flex h-[80%] w-[80%] items-center justify-around rounded-2xl border-2 dark:border dark:border-neutral-800 dark:bg-gradient-to-br dark:from-purple-500 dark:to-indigo-900 dark:shadow-[0_0_30px_#a855f755]">
         <div className="flex h-full w-1/2 flex-col justify-between border-r-2 dark:border-purple-500/50 dark:shadow">
           <div className="mt-3 ml-6 h-20 w-20">
