@@ -1,18 +1,23 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import imgLogo from "../../assets/nord.png";
+import Wave from "./components/Wave";
 
 const Login = () => {
   return (
     <div className="flex h-screen items-center justify-center bg-[#0f0f1a]">
       <div className="flex h-[80%] w-[80%] items-center justify-around rounded-2xl border border-neutral-800 bg-gradient-to-br from-purple-500 to-indigo-900 shadow-[0_0_30px_#a855f755]">
-        <div className="flex h-full w-1/2 items-start border-r border-purple-500/20 px-10 py-6">
-          <div className="h-20 w-20">
+        <div className="flex h-full w-1/2 flex-col justify-between border-r-2 border-purple-500/50 shadow">
+          <div className="mt-3 ml-6 h-20 w-20">
             <img
               src={imgLogo}
               alt="Logo"
-              className="h-20 object-contain drop-shadow-[0_0_8px_#a855f7] filter"
+              className="h-full object-contain drop-shadow-[0_0_8px_#a855f7] filter"
             />
+          </div>
+
+          <div className="w-full">
+            <Wave />
           </div>
         </div>
 
