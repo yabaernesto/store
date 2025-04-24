@@ -7,8 +7,8 @@ import { ThemeToggle } from "@/components/mode-toggle";
 const Login = () => {
   return (
     <div className="flex h-screen items-center justify-center bg-white dark:bg-[#0f0f1a]">
-      <div className="flex h-[80%] w-[80%] items-center justify-around rounded-2xl border dark:border dark:border-neutral-800 dark:bg-gradient-to-br dark:from-purple-500 dark:to-indigo-900 dark:shadow-[0_0_30px_#a855f755]">
-        <div className="flex h-full w-1/2 flex-col justify-between border-r dark:border-r-2 dark:border-purple-500/50 dark:shadow">
+      <div className="flex h-[80%] w-[80%] items-center justify-around rounded-2xl border-2 dark:border dark:border-neutral-800 dark:bg-gradient-to-br dark:from-purple-500 dark:to-indigo-900 dark:shadow-[0_0_30px_#a855f755]">
+        <div className="flex h-full w-1/2 flex-col justify-between border-r-2 dark:border-purple-500/50 dark:shadow">
           <div className="mt-3 ml-6 h-20 w-20">
             <img
               src={imgLogo}
@@ -24,7 +24,7 @@ const Login = () => {
 
         <div className="flex h-[80%] w-1/2 flex-col items-center justify-between p-4">
           <div className="w-full max-w-md p-4">
-            <h3 className="mb-4 text-center text-2xl font-semibold text-purple-400">
+            <h3 className="mb-4 text-center text-2xl font-semibold text-purple-400 dark:text-purple-300">
               Log in
             </h3>
 
@@ -40,11 +40,11 @@ const Login = () => {
                 className="border border-purple-500/30 px-4 py-6 text-white placeholder:text-zinc-400 focus:ring-2 focus:ring-purple-500 focus:outline-none dark:bg-[#1e1e2e]"
               />
 
-              <p className="flex justify-end text-sm text-zinc-400">
+              <p className="flex justify-end text-sm text-zinc-600 dark:text-zinc-400">
                 <span>Forgot your</span>
                 <a
                   href="#"
-                  className="ml-1 text-purple-300 hover:text-purple-500"
+                  className="ml-1 text-purple-600 hover:text-purple-400"
                 >
                   password?
                 </a>
@@ -61,9 +61,9 @@ const Login = () => {
             </form>
           </div>
 
-          <p className="mt-4 text-sm text-zinc-400">
+          <p className="mt-4 text-sm text-zinc-600 dark:text-zinc-400">
             Don't have any account?{" "}
-            <a href="#" className="text-purple-400 hover:underline">
+            <a href="#" className="text-purple-600 hover:underline">
               Sign Up
             </a>
           </p>
