@@ -32,12 +32,12 @@ const Login = () => {
               <Input
                 placeholder="username"
                 type="text"
-                className="border border-purple-500/30 px-4 py-6 text-white placeholder:text-zinc-400 focus:ring-2 focus:ring-purple-500 focus:outline-none dark:bg-[#1e1e2e]"
+                className="border border-purple-500/30 px-4 py-6 placeholder:text-zinc-400 focus:ring-2 focus:ring-purple-500 focus:outline-none dark:bg-[#1e1e2e] dark:text-white"
               />
               <Input
                 placeholder="password"
                 type="password"
-                className="border border-purple-500/30 px-4 py-6 text-white placeholder:text-zinc-400 focus:ring-2 focus:ring-purple-500 focus:outline-none dark:bg-[#1e1e2e]"
+                className="border border-purple-500/30 px-4 py-6 placeholder:text-zinc-400 focus:ring-2 focus:ring-purple-500 focus:outline-none dark:bg-[#1e1e2e] dark:text-white"
               />
 
               <p className="flex justify-end text-sm text-zinc-600 dark:text-zinc-400">
